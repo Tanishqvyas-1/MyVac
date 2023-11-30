@@ -1,0 +1,36 @@
+.tourinfo img{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 13px;
+}
+.tour{
+    background-color: #E8E9EB;
+    border-radius: 0.9rem;
+    margin: 1rem 0;
+    width: 270px;
+    height: 400px;
+}
+.img-container{
+    position: relative;
+}
+.tourinfo{
+    padding: 1rem 0.5rem;
+    h3{
+        text-transform: uppercase;
+        color: #30AADD;
+    }
+    h4{
+        text-transform: capitalize;
+        color: black;
+        margin: 0.2rem 0 0.6rem, 0;
+    }
+    h5{
+        text-transform: capitalize;
+        span{
+            color: #30AADD;
+            margin: 0.5rem;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+    }
+}
