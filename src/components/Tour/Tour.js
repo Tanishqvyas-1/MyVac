@@ -13,7 +13,7 @@ export default class Tour extends Component {
     const{city, img,name,info}=this.props.tour
     return (
       <>
-      <article className='tour'>
+      <article>
          <div className="img-container">
             <img src={img} width='270px' alt="" />
          </div>

@@ -1,0 +1,23 @@
+.box h3 {
+    color: #36aadd;
+}
+.box{
+    width: 200px;
+}
+.content2 {
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    justify-content: space-between;
+    animation: shiftContent 1s ease-in-out;
+}
+
+@keyframes shiftContent {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

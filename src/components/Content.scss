@@ -1,0 +1,27 @@
+.content{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-left: 400px;
+    animation: shiftContent 1s ease-in-out;
+}
+@keyframes shiftContent {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    background-color: #D3D3D3;
+    padding: 10px;
+}
