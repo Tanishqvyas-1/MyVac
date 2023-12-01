@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 export default function Project() {
   return (
     <>
-    hey
+    {/* new york */}
     <NavBar/>
     <Content/>
     <TourList/>
