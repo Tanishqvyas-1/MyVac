@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 export default function Project() {
   return (
     <>
+    hey
     <NavBar/>
     <Content/>
     <TourList/>
